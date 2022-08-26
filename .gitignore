@@ -1,0 +1,14 @@
+# bestand te negeren waarvan de naam eindigt op een “.o” of “.a”
+*.[oa]
+
+# Alle bestanden moet negeren die eindigen op een tilde (~), 
+# wat gebruikt wordt door editors zoals Emacs om tijdelijke bestanden aan te geven. 
+*~
+
+# ignore all files in any directory named build
+# build/
+01_VB_TestProgramma/bin/**/*
+01_VB_TestProgramma/obj/**/*
+
+# ignore all .pdf files in the doc/ directory and any of its subdirectories
+*.zip
